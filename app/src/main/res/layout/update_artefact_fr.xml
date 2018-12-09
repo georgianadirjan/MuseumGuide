@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/ic_o"
+    >
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Update Artefact"
+        android:textSize="30dp"
+        android:textColor="@color/blue1"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/idArtf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="ID"
+            android:textColorHint="@color/blue1"/>
+
+        <EditText
+            android:id="@+id/titleText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="Title"
+            android:textColorHint="@color/blue1"/>
+
+        <EditText
+            android:id="@+id/authorText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="Author"
+            android:textColorHint="@color/blue1"/>
+
+        <EditText
+            android:id="@+id/yearText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:hint="Year"
+            android:textColorHint="@color/blue1"/>
+
+        <EditText
+            android:id="@+id/descriptionText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:gravity="center_horizontal"
+            android:textColorHint="@color/blue1"
+            />
+
+        <EditText
+            android:id="@+id/departmentIdTextArtefactUpdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Depatment Id"
+            android:gravity="center_horizontal"
+            android:textColorHint="@color/blue1"
+            />
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/updateFloatingActionButton"
+        android:layout_width="59dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:fabSize="mini"
+        app:srcCompat="@drawable/ic_edit2"
+        android:layout_weight="0.07"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

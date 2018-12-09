@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_add"
+            android:src="@drawable/ic_add"
+            android:title="Add" />
+        <item
+            android:id="@+id/nav_remove"
+            android:src="@drawable/ic_remove"
+            android:title="Remove" />
+        <item
+            android:id="@+id/nav_update"
+            android:src="@drawable/ic_update"
+            android:title="Update" />
+
+        <item
+            android:id="@+id/nav_show_all"
+            android:src="@drawable/ic_list"
+            android:title="Show All" />
+
+    </group>
+
+
+</menu>

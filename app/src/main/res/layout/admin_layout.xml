@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerHorizontal="true"
+    android:background="@drawable/ic_a"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <ImageButton
+        android:id="@+id/userImgBtb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/userTxt"
+
+
+        android:layout_marginTop="70dp"
+        android:layout_toEndOf="@+id/beaconTxt"
+        android:background="@drawable/image_rounded_corner"
+        android:src="@drawable/ic_users_color" />
+
+    <TextView
+        android:id="@+id/userTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/userImgBtb"
+
+        android:text="Users"
+        android:textColor="@color/white_color"
+        android:textSize="20dp" />
+
+
+
+    <ImageButton
+        android:id="@+id/departmentImgBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/image_rounded_corner"
+        android:src="@drawable/ic_dep_color" />
+
+    <TextView
+        android:id="@+id/beaconTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department"
+        android:layout_gravity="center"
+        android:textColor="@color/white_color"
+        android:textSize="20dp" />
+
+
+
+
+</LinearLayout>

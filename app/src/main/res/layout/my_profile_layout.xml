@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:id="@+id/my_profile_layout_id"
+    android:background="@drawable/ic_prof"
+    >
+
+
+    <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/ic_account_circle_black_36dp"
+            android:background="@null"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_marginBottom="25dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/firstnamePf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="First Name"
+            android:padding="10dp"
+            android:textColorHint="@color/blue2" />
+
+        <TextView
+            android:id="@+id/lastnamePf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Last Name"
+            android:padding="10dp"
+            android:textColorHint="@color/blue2" />
+
+        <TextView
+            android:id="@+id/usernamePf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Username"
+            android:padding="10dp"
+            android:textColorHint="@color/blue2" />
+
+        <TextView
+            android:id="@+id/passwordPf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="Password"
+            android:padding="10dp"
+            android:textColorHint="@color/blue2" />
+
+        <TextView
+            android:id="@+id/emailPf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:hint="E-mail"
+            android:padding="10dp"
+            android:textColorHint="@color/blue2" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/updateBtn"
+            android:layout_width="87dp"
+            android:layout_height="72dp"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:src="@drawable/ic_edit_bl"
+            android:layout_marginTop="230dp"/>
+
+
+        <ImageButton
+            android:id="@+id/adminBtn"
+            android:layout_width="75dp"
+            android:layout_height="71dp"
+            android:layout_marginLeft="150dp"
+            android:layout_weight="0.05"
+            android:background="@null"
+            android:src="@drawable/ic_crown"
+            android:layout_marginTop="230dp"/>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

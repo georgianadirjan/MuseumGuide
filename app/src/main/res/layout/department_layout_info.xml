@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="300dp"
+    android:background="@drawable/ic_j"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameDepText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Name"
+            android:textColor="@color/white_color"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/beaconIDtxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Beacon ID"
+            android:textColor="@color/white_color"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/detailsDep1Text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="Details"
+            android:textColor="@color/white_color"
+            android:textSize="20dp" />
+
+
+
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imagedep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_mus"
+        android:background="@null"
+        android:layout_gravity="center"/>
+
+    <ImageButton
+        android:id="@+id/imagedepDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:src="@drawable/ic_delete"
+        android:background="@null"
+        android:layout_gravity="center"/>
+
+
+
+
+</LinearLayout>

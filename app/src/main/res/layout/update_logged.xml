@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/update_fragment_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/ic_o"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/update_fragment_id_new"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+
+        <EditText
+            android:id="@+id/password_textLogged"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/deep_blue" />
+
+
+        <Button
+            android:id="@+id/btnLogged"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="82dp"
+            android:background="#01579B"
+            android:clickable="true"
+            android:text="UPDATE"
+            android:textColor="#03A9F4" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/firstname_txtLogged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/deep_blue" />
+
+    <EditText
+        android:id="@+id/lastname_txtLogged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/firstname_txtLogged"
+        android:layout_below="@+id/firstname_txtLogged"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:textColor="@color/deep_blue" />
+
+    <EditText
+        android:id="@+id/username_txtLogged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/lastname_txtLogged"
+        android:layout_below="@+id/lastname_txtLogged"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPersonName"
+        android:textColor="@color/deep_blue" />
+
+    <EditText
+        android:id="@+id/email_textLogged"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/username_txtLogged"
+        android:layout_below="@+id/username_txtLogged"
+        android:layout_marginTop="81dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:textColor="@color/deep_blue" />
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_k"
+    android:weightSum="1"
+    android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/artefactImgButon"
+            android:layout_width="142dp"
+            android:layout_height="132dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="30dp"
+            android:background="@null"
+            android:src="@drawable/ic_artfacts" />
+
+        <ImageButton
+            android:id="@+id/beaconImgButon"
+            android:layout_width="142dp"
+            android:layout_height="132dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/artefactImgButon"
+            android:layout_marginStart="34dp"
+            android:background="@null"
+            android:src="@drawable/ic_beacon_color" />
+
+        <TextView
+            android:id="@+id/userTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/beaconImgButon"
+            android:layout_below="@+id/beaconImgButon"
+            android:layout_gravity="center"
+            android:layout_marginStart="38dp"
+            android:text="Beacon"
+            android:textColor="#FFEBEE"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"/>
+
+        <TextView
+            android:id="@+id/nfcTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/artefactImgButon"
+            android:layout_alignTop="@+id/artefactImgButon"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="133dp"
+            android:text="  Artefact"
+            android:textColor="#FFEBEE"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/userTxt"
+        android:layout_toEndOf="@+id/userTxt"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+    </RelativeLayout>
+
+</LinearLayout>

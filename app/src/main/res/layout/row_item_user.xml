@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/firstnameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First name"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+
+    <TextView
+        android:id="@+id/lastnameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last name"
+        android:textColor="@android:color/black"
+        android:layout_below="@+id/firstnameUser"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/usernameUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceButton"
+        android:textColor="@android:color/black"
+        android:text="Username"
+        android:layout_below="@+id/emailUser"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/emailUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceButton"
+        android:textColor="@android:color/black"
+        android:text="E-mail"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/lastnameUser" />
+
+    <ImageView
+        android:id="@+id/item_infoUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@android:drawable/ic_dialog_info" />
+
+
+</RelativeLayout>

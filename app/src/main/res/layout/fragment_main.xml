@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_e"
+    tools:context="com.example.geo.museumguide.fragment.MainFragment"
+    android:layout_gravity="center">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Welcome to Museum "
+            android:textColor="@color/white_color"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Guide"
+            android:textColor="@color/white_color"
+            android:textSize="30dp"
+            android:layout_below="@+id/text1"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="98dp" />
+
+    </RelativeLayout>
+
+</FrameLayout>

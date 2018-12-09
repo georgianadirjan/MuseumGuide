@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tour"
+            android:icon="@drawable/ic_hearing_black_36dp"
+            android:title="Tour" />
+        <item
+            android:id="@+id/nav_Gallery"
+            android:icon="@drawable/ic_palette_black_36dp"
+            android:title="Gallery" />
+
+        <item
+            android:id="@+id/nav_exhibition"
+            android:icon="@drawable/ic_collections_black_36dp"
+            android:title="Exhibition" />
+
+        <item
+            android:id="@+id/nav_favorite"
+            android:icon="@drawable/ic_favorite_black_36dp"
+            android:title="Favorites" />
+
+    </group>
+
+
+    <item android:title="Profile">
+        <menu>
+
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_account_circle_black_36dp"
+                android:title="My Profile" />
+
+            <item
+                android:id="@+id/nav_log_out"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Log out" />
+
+        </menu>
+    </item>
+
+    <item android:title="Musem Guide">
+        <menu>
+
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_map_black_36dp"
+                android:title="Map" />
+
+            <item
+                android:id="@+id/nav_about_app"
+                android:icon="@drawable/ic_info_black_36dp"
+                android:title="About app" />
+
+        </menu>
+        </item>
+    </menu>
